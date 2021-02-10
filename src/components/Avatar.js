@@ -5,7 +5,7 @@ import './Avatar.css';
 function Avatar() {
   return (
     <Container className="avatar">
-      <Image width={375} height={420} src="https://fit-yeah.s3.amazonaws.com/profile-pic.jpg" roundedCircle />
+      <Image width={400} height={420} src="https://fit-yeah.s3.amazonaws.com/profile-pic.jpg" roundedCircle />
     </Container>
   )
 }

@@ -1,0 +1,12 @@
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  padding: 200px;
+  margin: 200px 0 75px 0;
+}
+
+.project-grid > div {
+  margin-bottom: 50px;
+}
