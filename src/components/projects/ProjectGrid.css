@@ -1,0 +1,11 @@
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 200px;
+  margin: 100px 0 75px 0;
+}
+
+.project-grid > div {
+  margin-bottom: 50px;
+}
