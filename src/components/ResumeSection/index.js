@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import Button from '@material-ui/core/Button';
 import swe_resume from '../../images/resume.png'
-import { ResumeContainer, ResumeWrapper } from './ResumeElements';
+import './ResumeSection.css';
 
 function Resume() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,18 +11,11 @@ function Resume() {
   }
 
   return (
-    <>
-      <ResumeContainer>
-        <button onClick={toggleOpen}>Resume</button>
-        <ResumeWrapper>
-          <div className="resumeImg">
-            {isOpen ? (
-              <img src={swe_resume} />
-            ) : null}
-          </div>
-        </ResumeWrapper>
-      </ResumeContainer>
-    </>
+    <div className='resume-container'>
+      <div className="resumeImg">
+        <img src={swe_resume} />
+      </div>
+    </div>
   )
 }
 
