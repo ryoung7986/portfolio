@@ -1,5 +1,8 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
+import IconButton from '@material-ui/core/IconButton';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
 import {
   ProjectContainer,
   ProjectWrapper,
@@ -26,6 +29,8 @@ function ProjectSection({
   darkText,
   description,
   buttonLabel,
+  buttonLabelEmail,
+  buttonLabelLinkedIn,
   includeImage,
   img,
   alt,
@@ -64,6 +69,16 @@ function ProjectSection({
                     >
                       {buttonLabel}
                     </Button>
+                  ) : null}
+                  {buttonLabelEmail ? (
+                    <IconButton>
+                      <EmailIcon style={{ fontSize: 40, color: 'white' }} />
+                    </IconButton>
+                  ) : null}
+                  {buttonLabelLinkedIn ? (
+                    <IconButton>
+                      <LinkedInIcon style={{ fontSize: 40, color: 'white' }} />
+                    </IconButton>
                   ) : null}
                 </BtnWrap>
               </TextWrapper>
