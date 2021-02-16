@@ -2,8 +2,7 @@ import React from 'react';
 import { Button } from '../ButtonElement';
 import EmailButton from '../EmailButton';
 import LinkedInButton from '../LinkedInButton';
-import IconButton from '@material-ui/core/IconButton';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GithubButton from '../GithubButton';
 import {
   ProjectContainer,
   ProjectWrapper,
@@ -16,7 +15,6 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  includeImage,
   Img
 } from './ProjectElements';
 
@@ -32,6 +30,7 @@ function ProjectSection({
   buttonLabel,
   buttonLabelEmail,
   buttonLabelLinkedIn,
+  buttonLabelGithub,
   includeImage,
   img,
   alt,
@@ -76,6 +75,9 @@ function ProjectSection({
                   ) : null}
                   {buttonLabelLinkedIn ? (
                     <LinkedInButton />
+                  ) : null}
+                  {buttonLabelGithub ? (
+                    <GithubButton />
                   ) : null}
                 </BtnWrap>
               </TextWrapper>

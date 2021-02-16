@@ -11,7 +11,7 @@ function Resume() {
   }
 
   return (
-    <div className='resume-container'>
+    <div className='resume-container' id="resume">
       <div className="resumeImg">
         <img src={swe_resume} />
       </div>

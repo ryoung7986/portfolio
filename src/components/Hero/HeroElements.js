@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import profilePic from '../../images/profile-pic.jpg';
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -28,7 +29,14 @@ export const HeroContainer = styled.div`
   }
 `;
 
-// add :before styles
+export const Avatar = styled.div`
+  width: 300px;
+  height: 300px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+  background-image: url(${profilePic});
+  background-size: contain;
+`
 
 export const HeroBg = styled.div`
   position: absolute;

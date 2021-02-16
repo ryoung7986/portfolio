@@ -10,7 +10,8 @@ import {
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
+  Avatar
 } from './HeroElements';
 
 function Hero() {
@@ -21,13 +22,14 @@ function Hero() {
   }
 
   return (
-    <HeroContainer id="home">
+    <HeroContainer id="hero">
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4'></VideoBg>
       </HeroBg>
       <HeroContent>
+        <Avatar />
         <HeroH1>Ryan Young</HeroH1>
-        <HeroP>Software Developer</HeroP>
+        <HeroP>Ryan is a full-stack web developer who loves to talk in third person.</HeroP>
         <HeroBtnWrapper>
           <Button
             to="projects"

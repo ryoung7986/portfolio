@@ -2,8 +2,6 @@ import React from "react";
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-import { Link } from "react-router-dom";
-
 const LinkedInButton = ({ mailto, label }) => {
 
   return (
@@ -12,7 +10,7 @@ const LinkedInButton = ({ mailto, label }) => {
       target="_blank"
     >
       <IconButton>
-        <LinkedInIcon style={{ fontSize: 40, color: 'white' }} />
+        <LinkedInIcon style={{ fontSize: 45, color: 'white' }} />
       </IconButton>
     </a>
   );

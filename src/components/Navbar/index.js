@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
-// import { Navbar, Nav } from 'react-bootstrap';
 import {
   Nav,
   NavbarContainer,
@@ -15,32 +14,29 @@ function NavBar({ toggleOpen }) {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">
-          Ryan Young
-          </NavLogo>
+        <NavLogo>
+          <NavLinks to="hero">
+            Ryan Young
+          </NavLinks>
+        </NavLogo>
         <MobileIcon onClick={toggleOpen}>
           <FaBars />
         </MobileIcon>
         <NavMenu>
           <NavItem>
-            <NavLinks to="about">
-              About
-              </NavLinks>
-          </NavItem>
-          <NavItem>
             <NavLinks to="projects">
               Projects
-              </NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks to="resume">
-              Resume
-              </NavLinks>
+            </NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to="contact">
               Contact Me
-              </NavLinks>
+            </NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks to="resume">
+              Resume
+            </NavLinks>
           </NavItem>
         </NavMenu>
       </NavbarContainer>

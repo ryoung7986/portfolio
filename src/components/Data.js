@@ -3,7 +3,7 @@ import Hangry from './Projects/Hangry';
 import Petsy from './Projects/Petsy';
 
 export const homeObjOne = {
-  id: 'about',
+  id: 'projects',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -20,18 +20,17 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'about',
+  id: 'contact',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: 'Contact Me',
   headline: "Let's get in touch",
-  // description: 'description.',
-  // buttonLabel: 'Email',
   buttonLabelEmail: 'Email',
   buttonLabelLinkedIn: 'LinkedIn',
+  buttonLabelGithub: 'GitHub',
   imgStart: true,
-  img: require('../images/svg-1.svg').default,
+  img: require('../images/svg-2.svg').default,
   alt: 'Car',
   includeImage: true,
   dark: true,

@@ -27,7 +27,7 @@ export const NavbarContainer = styled.div`
   z-index: -1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1500px;
 `;
 
 export const NavLogo = styled(LinkRouter)`
@@ -37,7 +37,7 @@ export const NavLogo = styled(LinkRouter)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 14px;
   font-weight: bold;
   text-decoration: none;
 
