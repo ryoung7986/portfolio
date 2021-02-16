@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
+import EmailButton from '../EmailButton';
+import LinkedInButton from '../LinkedInButton';
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
 import {
   ProjectContainer,
   ProjectWrapper,
@@ -71,14 +72,10 @@ function ProjectSection({
                     </Button>
                   ) : null}
                   {buttonLabelEmail ? (
-                    <IconButton>
-                      <EmailIcon style={{ fontSize: 40, color: 'white' }} />
-                    </IconButton>
+                    <EmailButton mailto="mailto:ryoung@gmail.com" />
                   ) : null}
                   {buttonLabelLinkedIn ? (
-                    <IconButton>
-                      <LinkedInIcon style={{ fontSize: 40, color: 'white' }} />
-                    </IconButton>
+                    <LinkedInButton />
                   ) : null}
                 </BtnWrap>
               </TextWrapper>
