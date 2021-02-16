@@ -4,9 +4,9 @@ import './FitYeah.css';
 function FitYeah() {
   return (
     <div className="fit-yeah__container">
-      <h3>Fit-Yeah! (a fitness app)</h3>
+      <h6>Fit-Yeah! (a fitness app)</h6>
       <div className="fit-yeah">
-        <img src="https://fit-yeah.s3.amazonaws.com/fy-portfolio-logo.jpg" width="775" height="500" />
+        <img src="https://fit-yeah.s3.amazonaws.com/fy-portfolio-logo.jpg" width="300" height="175" />
       </div>
     </div>
   )

@@ -4,9 +4,9 @@ import './Petsy.css';
 function Petsy() {
   return (
     <div className="petsy__container">
-      <h3>Petsy (Etsy clone, for pets!)</h3>
+      <h6>Petsy (Etsy clone, for pets!)</h6>
       <div className="petsy">
-        <img src="https://fit-yeah.s3.amazonaws.com/petsy-logo.png" width="775" height="500" />
+        <img src="https://fit-yeah.s3.amazonaws.com/petsy-logo.png" width="300" height="175" />
       </div>
     </div>
   )

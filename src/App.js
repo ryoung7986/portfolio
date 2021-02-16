@@ -1,9 +1,9 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from './components/navbar';
-import Avatar from './components/about/Avatar';
-import Bio from './components/about/Bio';
-import ProjectGrid from './components/projects/ProjectGrid';
-import Sidebar from './components/sidebar';
+import NavBar from './components/Navbar';
+import Avatar from './components/About/Avatar';
+import Bio from './components/About/Bio';
+import ProjectGrid from './components/Projects/ProjectGrid';
+import Sidebar from './components/Sidebar';
 import Home from './pages';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
