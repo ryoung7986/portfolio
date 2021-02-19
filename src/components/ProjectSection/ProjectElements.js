@@ -85,6 +85,8 @@ export const Subtitle = styled.p`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
   }
 `;
 

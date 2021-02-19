@@ -11,3 +11,10 @@
   cursor: pointer;
   opacity: 90%;
 }
+
+@media only screen and (max-width: 768px) {
+  .petsy__container {
+    margin-top: 35px;
+    margin-right: 35px;
+  }
+}
