@@ -14,7 +14,15 @@ export const aboutObj = {
   alt: '',
   description: (
     <div className="data-description__about">
-      <p>I'm a software developer with a background in Art and Education, with a passion for programming, travel, and photography.</p>
+      <p>
+        {`I'm a software developer from Philadelphia,
+        with experience building full-stack applications
+        using a variety of technologies (see below).
+        Building things, innovating, solving problems,
+        and self-improvement are what drive me. I'm looking
+        to jump into a rewarding career with a great
+        team, and meet some cool people along the way.`}
+      </p>
     </div>
   ),
   includeImage: true,
@@ -28,8 +36,8 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Projects',
-  headline: 'A few recent projects',
+  topLine: 'A few recent projects...',
+  headline: 'Projects',
   description: (
     <div className="data-description">
       <FitYeah />
@@ -45,10 +53,10 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
+  topLine: "Some things I know...",
   headline: "Skills",
-  topLine: "Skills",
   description: (
-    <ul className="skills-ul">
+    <ul className="Some things I know...-ul">
       <li><b>JavaScript</b></li>
       <li><b>Python</b></li>
       <li><b>HTML</b></li>

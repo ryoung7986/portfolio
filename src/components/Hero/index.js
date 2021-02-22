@@ -29,7 +29,7 @@ function Hero() {
       <HeroContent>
         <Avatar />
         <HeroH1>Ryan Young</HeroH1>
-        <HeroP>Ryan is a full-stack web developer who loves to talk in third person.</HeroP>
+        <HeroP>Ryan is a full-stack web developer with a passion for programming, photography, travel, and Korean BBQ. Sometimes he talks in third-person.</HeroP>
         <HeroBtnWrapper>
           <Button
             to="projects"
