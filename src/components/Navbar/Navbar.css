@@ -1,0 +1,14 @@
+.navbar__resume {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+}
+
+.navbar__resume > a {
+  color: white;
+}
+
+.navbar__resume > a:hover {
+  color: grey;
+  text-decoration: none;
+}

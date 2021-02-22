@@ -1,4 +1,5 @@
 import React from 'react';
+import swe_resume from '../../Documents/swe_resume.pdf';
 import { FaBars } from 'react-icons/fa';
 import {
   Nav,
@@ -9,6 +10,7 @@ import {
   NavItem,
   NavLinks
 } from './NavbarElements';
+import './Navbar.css';
 
 function NavBar({ toggleOpen }) {
   return (
@@ -24,6 +26,11 @@ function NavBar({ toggleOpen }) {
         </MobileIcon>
         <NavMenu>
           <NavItem>
+            <NavLinks to="about">
+              About
+            </NavLinks>
+          </NavItem>
+          <NavItem>
             <NavLinks to="projects">
               Projects
             </NavLinks>
@@ -34,9 +41,12 @@ function NavBar({ toggleOpen }) {
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="resume">
-              Resume
+            <NavLinks to="skills">
+              Skills
             </NavLinks>
+          </NavItem>
+          <NavItem className="navbar__resume">
+            <a style={{ textDecoration: "none" }} href={swe_resume} target="_blank">Resume</a>
           </NavItem>
         </NavMenu>
       </NavbarContainer>

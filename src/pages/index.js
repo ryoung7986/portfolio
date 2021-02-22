@@ -8,9 +8,14 @@ import { homeObjOne, homeObjTwo, homeObjThree, aboutObj } from '../components/Da
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
+  const [viewResume, setViewResume] = useState(false);
 
   const toggleOpen = () => {
     setIsOpen(!isOpen);
+  }
+
+  const toggleResume = () => {
+    setViewResume(!viewResume);
   }
 
   return (
@@ -22,7 +27,7 @@ function Home() {
       <ProjectSection {...homeObjOne} />
       <ProjectSection {...homeObjTwo} />
       <ProjectSection {...homeObjThree} />
-      {/* <ResumeSection /> */}
+      <ResumeSection toggleResume={toggleResume} viewResume={viewResume} />
     </>
   )
 }
