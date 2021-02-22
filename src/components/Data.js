@@ -3,6 +3,26 @@ import Hangry from './Projects/Hangry';
 import Petsy from './Projects/Petsy';
 import './Data.css';
 
+export const aboutObj = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'About Ryan',
+  headline: 'A little about me...',
+  img: require('../images/svg-4.svg').default,
+  alt: '',
+  description: (
+    <div className="data-description__about">
+      <p>I'm a software developer with a background in Art and Education, with a passion for programming, travel, and photography.</p>
+    </div>
+  ),
+  includeImage: true,
+  dark: true,
+  primary: true,
+  darkText: false,
+}
+
 export const homeObjOne = {
   id: 'projects',
   lightBg: true,
