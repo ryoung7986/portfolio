@@ -10,7 +10,7 @@ const LinkedInButton = ({ mailto, label }) => {
       target="_blank"
     >
       <IconButton>
-        <LinkedInIcon style={{ fontSize: 45, color: 'white' }} />
+        <LinkedInIcon style={{ fontSize: 45, color: 'gray' }} />
       </IconButton>
     </a>
   );

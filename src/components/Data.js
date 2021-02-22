@@ -41,31 +41,12 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'contact',
+  id: 'skills',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Contact Me',
-  headline: "Let's get in touch",
-  buttonLabelEmail: 'Email',
-  buttonLabelLinkedIn: 'LinkedIn',
-  buttonLabelGithub: 'GitHub',
-  imgStart: true,
-  img: require('../images/svg-2.svg').default,
-  alt: '',
-  includeImage: true,
-  dark: true,
-  primary: true,
-  darkText: false,
-}
-
-export const homeObjThree = {
-  id: 'skills',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  // topLine: 'Skills',
   headline: "Skills",
+  topLine: "Skills",
   description: (
     <ul className="skills-ul">
       <li><b>JavaScript</b></li>
@@ -83,11 +64,27 @@ export const homeObjThree = {
       <li><b>AWS</b></li>
     </ul>
   ),
+  imgStart: false,
+  img: require('../images/svg-3.svg').default,
+  alt: '',
+  includeImage: true,
+  dark: true,
+  primary: true,
+  darkText: false,
+}
+
+export const homeObjThree = {
+  id: 'contact',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Contact Me',
+  headline: "Let's get in touch",
   buttonLabelEmail: 'Email',
   buttonLabelLinkedIn: 'LinkedIn',
   buttonLabelGithub: 'GitHub',
-  imgStart: false,
-  img: require('../images/svg-3.svg').default,
+  imgStart: true,
+  img: require('../images/svg-2.svg').default,
   alt: '',
   includeImage: true,
   dark: true,

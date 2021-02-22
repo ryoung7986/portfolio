@@ -15,7 +15,7 @@ const EmailButton = ({ mailto, label }) => {
       }}
     >
       <IconButton>
-        <EmailIcon style={{ fontSize: 45, color: 'white' }} />
+        <EmailIcon style={{ fontSize: 45, color: 'gray' }} />
       </IconButton>
     </Link>
   );

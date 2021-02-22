@@ -10,7 +10,7 @@ const GithubButton = ({ mailto, label }) => {
       target="_blank"
     >
       <IconButton>
-        <GitHubIcon style={{ fontSize: 40, color: 'white' }} />
+        <GitHubIcon style={{ fontSize: 40, color: 'gray' }} />
       </IconButton>
     </a>
   );
