@@ -3,6 +3,19 @@
   margin-right: 35px;
 }
 
+.fit-yeah__container > p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.fit-yeah__container > ul {
+  margin-left: 20px;
+}
+
+.fit-yeah__container--div {
+  margin-bottom: 30px;
+}
+
 .fit-yeah > img {
   border-radius: 5px;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);

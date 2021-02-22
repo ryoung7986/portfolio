@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar';
 import Hero from '../components/Hero';
 import ProjectSection from '../components/ProjectSection';
 import ResumeSection from '../components/ResumeSection';
-import { homeObjOne, homeObjTwo } from '../components/Data';
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/Data';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +20,7 @@ function Home() {
       <Hero />
       <ProjectSection {...homeObjOne} />
       <ProjectSection {...homeObjTwo} />
+      <ProjectSection {...homeObjThree} />
       <ResumeSection />
     </>
   )
