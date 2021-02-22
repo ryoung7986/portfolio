@@ -56,7 +56,7 @@ export const homeObjTwo = {
   topLine: "Some things I know...",
   headline: "Skills",
   description: (
-    <ul className="Some things I know...-ul">
+    <ul className="Some things I know...">
       <li><b>JavaScript</b></li>
       <li><b>Python</b></li>
       <li><b>HTML</b></li>
