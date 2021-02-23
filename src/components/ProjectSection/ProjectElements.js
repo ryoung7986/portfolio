@@ -6,6 +6,7 @@ export const ProjectContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    height: 100%;
   }
 `;
 
@@ -19,6 +20,11 @@ export const ProjectWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
+    height: 100%;
+  }
 `;
 
 export const ProjectRow = styled.div`
@@ -98,6 +104,10 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Img = styled.img`

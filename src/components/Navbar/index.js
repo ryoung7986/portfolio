@@ -36,13 +36,13 @@ function NavBar({ toggleOpen }) {
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="contact">
-              Contact Me
+            <NavLinks to="skills">
+              Skills
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="skills">
-              Skills
+            <NavLinks to="contact">
+              Contact Me
             </NavLinks>
           </NavItem>
           <NavItem className="navbar__resume">

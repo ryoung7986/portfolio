@@ -1,7 +1,6 @@
 .navbar__resume {
   display: flex;
   align-items: center;
-  text-decoration: none !important;
 }
 
 .navbar__resume > a {

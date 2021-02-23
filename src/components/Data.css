@@ -1,3 +1,11 @@
 .data-description {
   display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+  .data-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
